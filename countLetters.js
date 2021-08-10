@@ -1,11 +1,3 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`😄 Assertion Passed: ${actual}` + ` === ${expected}`)
-  } else if (actual !== expected) {
-    console.log(`🤯 Assertion Failed:  + ${actual}` + ` !==  ${expected}`)
-  }
-};
-let word = "I lLove my self";
 const countLetters = function(string) {
   const result = {};
   let string2 = string.replace(/\s+/g, '').toUpperCase();
@@ -18,6 +10,7 @@ const countLetters = function(string) {
   }
   return result
 };
-console.log(countLetters(word));
+
+
 
 module.exports = countLetters
