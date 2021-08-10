@@ -29,4 +29,7 @@ const assertObjectsEqual = function(object1, object2) {
     console.log(`🤯 Assertion Failed:  ${inspect(object1)}` + ` !==  ${inspect(object2)}`)
   }
 };
-console.log(assertObjectsEqual(ab, ba))
+
+//console.log(assertObjectsEqual(ab, ba))
+
+module.exports = assertObjectsEqual

@@ -20,3 +20,4 @@ console.log(findKeyByValue(bestTVShowsByGenre, "The Expanse"));
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Expanse"), "sci_fi");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 
+module.exports = findKeyByValue

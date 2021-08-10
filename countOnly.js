@@ -36,3 +36,5 @@ const countOnly = function(allItems, itemsToCount) {
   return results
 }
 console.log(countOnly(firstNames, neededObjects))
+
+module.exports = countOnly

@@ -58,3 +58,5 @@ const cd2 = {
   d: ["2", 3, 4]
 };
 console.log(eqObjects(cd, cd2)); // => false
+
+module.exports = eqObjects
